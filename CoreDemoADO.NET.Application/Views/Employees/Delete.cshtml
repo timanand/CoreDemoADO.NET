@@ -1,0 +1,25 @@
+﻿@model CoreDemoADO.NET.Domain.StaffMember
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<p>Staff Member: @Model.FirstName @Model.LastName (Id:@Model.Id)</p>
+
+@using (Html.BeginForm())
+{
+    <!-- <input type="submit" value="Delete" class="btn btn-danger" /> -->
+
+    <button type="submit" class="btn btn-danger"
+            onclick="return confirm('Are you sure you want to delete user: @Model.FirstName  @Model.LastName (Id:@Model.Id) ?' )">
+        Delete
+    </button>
+}
+
+
+<br>
+<div>
+    <a asp-action="ListEmployees"> Back to List of Staff Members</a>
+</div>
