@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDemoADO.NET.Data", "Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDemoADO.NET.Domain", "CoreDemoADO.NET.Domain\CoreDemoADO.NET.Domain.csproj", "{646D70AE-9E77-484A-ACBD-A9BA42A004ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreDemoADO.NET.Tests", "CoreDemoADO.NET.Tests\CoreDemoADO.NET.Tests.csproj", "{52CE8C00-203F-46D2-AF97-0BCB91C0C489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{646D70AE-9E77-484A-ACBD-A9BA42A004ED}.Release|x64.Build.0 = Release|Any CPU
 		{646D70AE-9E77-484A-ACBD-A9BA42A004ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{646D70AE-9E77-484A-ACBD-A9BA42A004ED}.Release|x86.Build.0 = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|x64.Build.0 = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Debug|x86.Build.0 = Debug|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|x64.ActiveCfg = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|x64.Build.0 = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|x86.ActiveCfg = Release|Any CPU
+		{52CE8C00-203F-46D2-AF97-0BCB91C0C489}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
