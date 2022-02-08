@@ -82,6 +82,8 @@ Press F5 or click on the Play button icon from the toolbar in Visual Studio 2019
 When you run the Web application it will allow the ability to Create, Update and Delete Staff Members.
 
 
+## Notes
+Added xUnit Test Project to test : Get Staff Members, Add New Staff Member, Update Staff Member and Delete Staff Member.
 
 
 ## License & Copyright
